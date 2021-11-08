@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c231e;
+    height: 80px;
+}
+header img{
+    width: 120px;
+    margin-left: 10px;
+}
+.enlaces a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.banner-covid{
+    width: 100%;
+}
+.post{
+    padding: 40px;
+background-image: linear-gradient(140deg, #13322B 50%, #15a83a38 100%), url(row.svg);
+background-size: cover;
+width: 70%;
+margin: 20px auto;
+}
+.post h1{
+    color: #B38E5D;
+margin: 10px;
+}
+.post p{
+    color: #fff;
+font-size: 18px;
+}
+footer{
+    padding: 20px;
+    background-color: #13322b;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #B38E5D ;
+}
+.que-hacemos{
+    padding: 20px;
+    width: 1000px;
+    height: 380px;
+    display: flex;
+    margin-bottom: 166px;
+}
+.que-hacemos-1{
+    margin-right: 40px;
+}
+.que-hacemos h1{
+    font-size: 38px;
+    color: #B38E5D;
+}
+.que-hacemos p{
+    line-height: 1.5;
+    font-weight: 100;
+}
+.sacarcita{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+}
+.sacarcita form{
+    display: flex;
+    flex-direction: column;
+}
+.sacarcita form *{
+    margin: 5px 0;
+}
+.sacarcita form input{
+    height: 40px;
+}
+.empleados{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto 50px auto;
+}
+.empleados form{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 30px;
+    background-image: linear-gradient(140deg, #13322B 50%, #15a83a38 100%), url(row.svg);
+background-size: cover;
+border-radius: 10px;
+
+}
+.empleados form h1{
+    color: #B38E5D;
+}
+.empleados form input{
+    height: 40px;
+}
+.empleados form *{
+    margin: 5px 0;
+}
+.empleados form label{
+    color: white;
+}
